@@ -57,28 +57,24 @@ de dados, sem pressupor que sejam diretamente intercambiáveis.
 Modelagem dimensional do Data Mart
 
 O modelo dimensional está organizado em torno de quatro tabelas fato:
-  Tabela fato                         Finalidade
-  Fato Populacional                 Armazenar medidas populacionais
-                                      utilizadas como denominadores de
-                                      indicadores selecionados.
-  Fato Cobertura Vacinal            Armazenar medidas agregadas de
-                                      cobertura vacinal provenientes de
-                                      fontes históricas oficiais.
-  Fato Epidemiologia                Armazenar medidas derivadas dos
-                                      registros epidemiológicos, como
-                                      casos confirmados e óbitos.
-  Fato Vacinação                    Armazenar eventos individuais de
-                                      vacinação e medidas quantitativas
-                                  disponíveis nas fontes.
+
+ - Fato Populacional: Armazenar medidas populacionais utilizadas como
+  denominadores de indicadores selecionados.
+  
+ - Fato Cobertura Vacinal: Armazenar medidas agregadas de cobertura vacinal
+  provenientes de fontes históricas oficiais.
+  
+ - Fato Epidemiologia: Armazenar medidas derivadas dos registros
+  epidemiológicos, como casos confirmados e óbitos.
+  
+ - Fato Vacinação: Armazenar eventos individuais de vacinação e medidas
+  quantitativas disponíveis nas fontes.
 
 As dimensões e os relacionamentos analíticos permitem consultar os dados
 por tempo, município, agravo e imunobiológico, respeitando a
 granularidade de cada conjunto de dados.
 
 Indicadores implementados
-
-De acordo com a disponibilidade e a qualidade dos dados, o projeto
-contempla análises como:
 
 - Coeficiente de incidência
 - Taxa de letalidade

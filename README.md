@@ -123,4 +123,4 @@ Brasil.
 
 Licença
 
-Pública.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
